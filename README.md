@@ -5,9 +5,19 @@ Merupakan sebuah program yang dapat mengembalikan convex hull dari kumpulan data
 * Python
 * Package 
   * matplotlib
+  * numpy
   * pandas
   * scipy
-<br> Dapat diinstall dengan menjalankan ``` pip install --user numpy scipy matplotlib ipython jupyter pandas ``` di terminal
+  * sklearn <br/>
+Dapat diinstall dengan menjalankan perintah
+ ``` 
+ pip install --user numpy scipy matplotlib ipython jupyter pandas 
+ ``` 
+ ```
+ pip install -U scikit-learn
+ ```
+
+ 
 
 ## Cara menggunakan Program
 1. Jalankan semua cells pada file `myConvexHull.ipynb`
@@ -15,9 +25,9 @@ Merupakan sebuah program yang dapat mengembalikan convex hull dari kumpulan data
    ``` data = datasets.load_iris() ``` di cell kedua
    <br>
    Dataset yang dapat digunakan yaitu :
-   * load_iris
-   * load_wine
-   * load_breast_cancer
+   * load_iris()
+   * load_wine()
+   * load_breast_cancer()
  3. Nomor kolom yang ingin digunakan dapat diubah pada cell ketiga bagian
     ```
     #kolom yang ingin digunakan
